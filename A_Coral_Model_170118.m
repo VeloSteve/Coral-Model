@@ -29,7 +29,7 @@ OA = 0; % Ocean Acidification ON (1) or OFF (0)?
 maxReefs = 1925;  %never changes, but used below.
 %% Variables for plotting, debugging, or speed testing
 skipPostProcessing = false;     % Don't do final stats and plots when timing.
-everyx = 10000; % 1;                % run code on every x reefs, plus "keyReefs"
+everyx = 10; % 1;                % run code on every x reefs, plus "keyReefs"
                                 % if everyx is one of 'eq', 'lo', 'hi' it
                                 % selects reefs for abs(latitude) bins [0,7],
                                 % (7, 14], or (14,90] respectively.

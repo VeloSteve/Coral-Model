@@ -28,9 +28,9 @@ function [basePath, outputPath, sstPath, SGPath, matPath, n, defaultThreads] ...
         case 3
             %clc;
             defaultThreads = 6;
-            top = 'D:/';
-            basePath = strcat(top, 'Coral_Model_Source/');
-            sharedData = strcat(top, 'Coral_Shared_Data/');
+            top = 'D:/GitHub/';
+            basePath = strcat(top, 'Coral-Model/');
+            sharedData = strcat(top, 'Coral-Model-Data/');
             %outputPath = basePath;
             outputPath = 'D:/CoralTest/V10Test_SC/';  % C: for SSD D: for non-google directory
             %outputPath =  'D:/GoogleDrive/Coral_Model_Steve/Outputs_May8_May17/';
